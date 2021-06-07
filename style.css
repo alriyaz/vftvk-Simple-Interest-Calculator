@@ -1,4 +1,57 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+        background-color: black;
+        font-family: arial;
+        color: white;
+    }
 
+h2{
+    color: grey;
+    font-family: verdana;
+    text-align: center;
+    }
 
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 400px; 
+    padding: 20px; 
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.main{
+    padding: 10px 20px;
+}
+
+*{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#principal{
+    margin-left: 40px;
+}
+
+#years{
+    margin-left: 5px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 3px 5px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+
+}
+
+footer{
+    margin-left: 10px; 
+}
+
+small{
+    margin-top: 5px;
+    display: block;
+
+}
