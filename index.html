@@ -11,17 +11,20 @@
 
         <h2>Simple Interest Calculator</h2>
 
-    <div class="main">
-        <label for="principal"> Amount: </label>
-        <input type="text"  id="principal">  <br/>
+<div class="content">
+    <div class="left"> <label for="principal"> Amount: </label> </div>
+    <div class="right"> <input type="text"  id="principal"> </div>
+</div>
 
-        <label for="rate">Interest Rate: </label>
-        <input type="range"  id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
-        <span id="rate_val"> 10.25% </span> 
-        <br>
+<div class="content">
+    <div class="left"><label for="rate">Interest Rate: </label></div>
+    <div class="right"><input type="range"  id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()">
+        <span id="rate_val"> 10.25% </span> </div>
+</div>
 
-        <label for="years">No. of. Years: </label>
-        <select id="years">
+<div class="content">
+    <div class="left"><label for="years">No. of. Years: </label></div>
+    <div class="right"><select id="years">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -32,17 +35,17 @@
             <option value="8">8</option>
             <option value="9">9</option>
             <option valur="10">10</option>1
-        </select> 
+        </select> </div>
         
-        <br/>
+            <div class="clearfix"></div>
 
-        <button onclick="compute()">Compute Interest</button>
-        <br>
-        <span id="result"></span>
-    </div>
+        <button onclick="calculate()">Compute Interest</button>
+        
+        <span id="result"></span> <br>
+    
         <footer> &#169; Everyone Can Get Rich 
-            <small>Made with &hearts; by Riyaz</small>
-        </footer>
+        <p><small>Made with &hearts; by Riyaz</small></p>
+        </footer>   
 
     </div>
     </body>
